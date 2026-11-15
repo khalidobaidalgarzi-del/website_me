@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموقع الشخصي خالد عبيد القرزي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+
+    <!-- شريط التنقل العلوي Navbar -->
+    <nav class="navbar">
+        <div class="logo">موقعي <span>الشخصي </span></div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من أنا</a></li>
+            <li><a href="#skills">المهارات والهوايات</a></li>
+            <li><a href="#education">المؤهلات الأكاديمية</a></li>
+            <li><a href="#contact">التواصل</a></li>
+        </ul>
+    </nav>
+
+    <!-- قسم الواجهة الرئيسية Home -->
+    <section id="home" class="hero">
+        <h1>أهلاً بك في موقعي الشخصي</h1>
+        <h2>طالب تقنية معلومات ومطور تطبيقات</h2>
+        <p>أنا طالب في تخصص تقنية المعلومات، شغوف بشبكات الحاسوب، برمجية الويب، وتطوير الأنظمة البرمجية المتكاملة.</p>
+        <img src="profile.jpg.jpg" alt="صورتي الشخصيه" class="profile-img">
+    </section>
+
+    <!-- قسم نبذة عني About Me -->
+    <section id="about" class="container">
+        <h2>من أنا</h2>
+        <h3>الخلفية والطموح الأكاديمي</h3>
+        <p>أدرس حالياً في تخصص <span>تقنية المعلومات</span> (المستوى الثالث). أركز على بناء وتصميم الأنظمة البرمجية، فهم هيكلية الشبكات، وتطوير واجهات الويب. أطمح دوماً لتطوير مهاراتي التقنية وتطبيق التحليل والتصميم السليم لبناء حلول رقمية فعالة.</p>
+    </section>
+
+    <!-- قسم المهارات والهوايات Skills & Hobbies -->
+    <section id="skills" class="container">
+        <h2>المهارات والهوايات</h2>
+
+        <h4>المهارات التقنية</h4>
+        <ol>
+            <li>تطوير التطبيقات بلغة #C و Windows Forms</li>
+            <li>تصميم واجهات الويب باستخدام HTML5 & CSS3</li>
+            <li>إدارة وقواعد البيانات العلاقاتية (SQL Server)</li>
+            <li>إعداد الشبكات وتقسيم النطاقات (Subnetting & TCP/IP)</li>
+        </ol>
+
+        <h5>الهوايات الشخصية</h5>
+        <ul>
+            <li>قراءة التاريخ العربي والأدب</li>
+            <li>كتابة ومطالعة الشعر الشعبي والقصائد</li>
+            <li>الرياضة والتمارين البدنية</li>
+        </ul>
+    </section>
+
+    <!-- قسم المؤهلات الأكاديمية Education -->
+    <section id="education" class="container">
+        <h2>المؤهلات الأكاديمية</h2>
+        <h6>السجل الأكاديمي</h6>
+        <table>
+            <thead>
+                <tr>
+                    <th>المؤهل / الشهادة</th>
+                    <th>الجهة / المؤسسة</th>
+                    <th>التخصص</th>
+                    <th>الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>شهادة الثانوية العامة</td>
+                    <td>ابو بكر بن شهاب</td>
+                    <td>القسم العلمي</td>
+                    <td>مكتمل</td>
+                </tr>
+                <tr>
+                    <td>بكالوريوس تقنية معلومات</td>
+                    <td>جامعة الريان</td>
+                    <td>تقنية المعلومات (IT)</td>
+                    <td>مستمر (المستوى الثالث)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- قسم نموذج التواصل Contact Form -->
+    <section id="contact" class="container">
+        <h2>تواصل معي</h2>
+        <div style="margin-bottom: 25bx;"font: 1.1rem; color:#2c3e50;">
+        <p><strong>البريد الاكتروني :</strong> kaled@obid</p>
+    <p><strong>الهاتف/الواتساب:</strong> 737969702</p>
+    <p><strong>المكان :</strong> حضرموت/اليمن</p>
+
+        </div>
+   
+    
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">الاسم الكامل</label>
+                <input type="text" id="name" name="name" placeholder="أدخل اسمك الكامل" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">الموضوع</label>
+                <input type="text" id="subject" name="subject" placeholder="عنوان الرسالة" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+            </div>
+
+            <button type="submit">إرسال الرسالة</button>
+        </form>
+    </section>
+
+</body>
+</html>
